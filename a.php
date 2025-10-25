@@ -1,3 +1,4 @@
 <?php
-echo "Lang";
+    echo "Lang";
+    echo "Language";
 ?>
