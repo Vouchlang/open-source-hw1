@@ -35,7 +35,10 @@ class MyHomePage extends StatelessWidget {
                     title: Text(memberList[index].name),
                     content: memberList[index].imageUrl == ''
                         ? Icon(Icons.image)
-                        : Image.asset(memberList[index].imageUrl),
+                        : ClipRRect(
+                            borderRadius: BorderRadiusGeometry.circular(15),
+                            child: Image.asset(memberList[index].imageUrl),
+                          ),
                     actions: [
                       TextButton(
                         style: ButtonStyle(
