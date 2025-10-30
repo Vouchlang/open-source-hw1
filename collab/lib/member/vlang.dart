@@ -1,0 +1,1 @@
+const vlangUrl = "assets/vlang.jpg";
