@@ -1,3 +1,9 @@
+import 'package:collab/member/lheng.dart';
+import 'package:collab/member/mheang.dart';
+import 'package:collab/member/rtnea.dart';
+import 'package:collab/member/sha.dart';
+import 'package:collab/member/sphoeurt.dart';
+import 'package:collab/member/vlang.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatelessWidget {
@@ -98,10 +104,10 @@ class Member {
 }
 
 List<Member> memberList = [
-  Member('VLang', 'assets/vlang.jpg'),
-  Member('MHeang', ''),
-  Member('SPhoeurt', ''),
-  Member('LHeng', ''),
-  Member('SHa', ''),
-  Member('RTNea', ''),
+  Member('VLang', vlangUrl),
+  Member('MHeang', mheangUrl),
+  Member('SPhoeurt', sphoeurtUrl),
+  Member('LHeng', lhengUrl),
+  Member('SHa', shaUrl),
+  Member('RTNea', rtneaUrl),
 ];
