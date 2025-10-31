@@ -1,1 +1,1 @@
-const mheangUrl = "assets/sm_heang.JPG";
+const mheangUrl = "assets/laws.jpg";
