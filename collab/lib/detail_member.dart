@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'home_page.dart';
+import 'class_member.dart';
 
 class NeumorphicContainer extends StatelessWidget {
   final Widget child;
@@ -26,13 +26,13 @@ class NeumorphicContainer extends StatelessWidget {
         borderRadius: borderRadius,
         boxShadow: [
           BoxShadow(
-            color: Colors.white.withOpacity(0.8),
+            color: Colors.white.withValues(alpha: 0.8),
             offset: Offset(-depth / 2, -depth / 2),
             blurRadius: blurRadius,
             spreadRadius: 1,
           ),
           BoxShadow(
-            color: Colors.black.withOpacity(0.15),
+            color: Colors.black.withValues(alpha: 0.15),
             offset: Offset(depth, depth),
             blurRadius: blurRadius,
             spreadRadius: 1,
@@ -63,7 +63,7 @@ class DetailMember extends StatelessWidget {
           shape: BoxShape.circle,
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.5),
+              color: Colors.black.withValues(alpha: 0.5),
               blurRadius: 20,
               offset: const Offset(0, 5),
             ),
@@ -147,7 +147,7 @@ class DetailMember extends StatelessWidget {
               icon: Container(
                 padding: const EdgeInsets.all(8),
                 decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.3),
+                  color: Colors.white.withValues(alpha: 0.3),
                   shape: BoxShape.circle,
                 ),
                 child: const Icon(
